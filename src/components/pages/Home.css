@@ -1,0 +1,27 @@
+.home__container {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__container h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.home__container h1 span {
+    color: #ffbb33;
+    padding: 0 .2em;
+    background-color: #222;
+}
+
+.home__container p {
+    margin-bottom: 1.5em;
+    color: #7b7b7b;
+}
+
+.home__image {
+    width: 25%;
+    margin: 2em 0;
+}

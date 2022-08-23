@@ -1,0 +1,13 @@
+.project__container {
+    padding: 2em;
+}
+
+.title__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.widthBtn {
+    width: 10%;
+}

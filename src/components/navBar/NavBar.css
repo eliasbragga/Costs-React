@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+    background-color: #222;
+}
+
+.menu__lista {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+   
+}
+
+.menu__link a {
+    text-decoration: none;
+    color: black;
+    margin-left:12px;
+    text-decoration: none;   
+    color: white;
+}
+
+.menu__link a:hover {
+    color: #ffbb33; 
+}
