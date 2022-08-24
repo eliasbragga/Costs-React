@@ -1,4 +1,4 @@
-import '../pages/Pages.css'
+import '../Pages.css'
 function Contact(){
     return(
         <div className='container min-height'>

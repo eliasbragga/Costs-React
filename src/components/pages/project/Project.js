@@ -1,8 +1,8 @@
-import Message from "../layout/Message";
+import Message from "../../layout/message/Message";
 import { useLocation } from "react-router-dom";
 import "./Project.css";
-import LinkButton from "../layout/LinkButton";
-import ProjectCards from "../project/ProjectCards";
+import LinkButton from "../../layout/linkButton/LinkButton";
+import ProjectCards from "../../project/projectCards/ProjectCards";
 import { useEffect, useState } from "react";
 
 function Project() {
@@ -31,10 +31,15 @@ function Project() {
 
   return (
     <div className="column container min-height project__container">
-      <h1>Meus Projetos</h1>
-      <div className="title__container ">
+      <div className="space">
+        <h1>Meus Projetos</h1>
         {message && <Message msg={message} type="sucess" />}
+        <div className="widthBtn">
+            <LinkButton to="/newproject" text="Criar Projeto" />
+          </div>
 
+      </div>
+      <div className="title__container ">
         {projects.length > 0 &&
           projects.map((project) => (
             <ProjectCards
@@ -45,9 +50,7 @@ function Project() {
               key={project.id}
             />
           ))}
-        <div className="widthBtn">
-          <LinkButton to="/newproject" text="Criar Projeto" />
-        </div>
+        
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import '../pages/Pages.css'
+import '../Pages.css'
 
 function Company(){
     return(

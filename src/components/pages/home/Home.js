@@ -1,7 +1,7 @@
-import '../pages/Pages.css'
+import '../Pages.css'
 import './Home.css'
-import savings from '../../img/savings.svg'
-import LinkButton from '../layout/LinkButton'
+import savings from '../../../img/savings.svg'
+import LinkButton from '../../layout/linkButton/LinkButton'
 
 
 function Home(){

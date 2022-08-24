@@ -1,0 +1,21 @@
+.project__container {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__container {
+    display: flex;
+    margin-bottom: 2em;
+    text-align: center;
+    height: 250px;
+}
+
+.widthBtn {
+    width: 10%;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+}

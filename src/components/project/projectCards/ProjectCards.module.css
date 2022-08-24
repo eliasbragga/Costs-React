@@ -54,3 +54,42 @@
 .category__text .planejamento {
     background-color: #fbe7c6;
 }
+
+.project__card__actions {
+    margin-top: 1.2em ;
+    display: flex;
+    align-items: center;
+}
+
+ 
+
+.project__card__actions button,
+.project__card__actions a
+{
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: #222;
+    font-size: .9em;
+    padding: .6em 1em;
+    cursor: pointer;
+    margin-right: 1em;
+    border: 1px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.project__card__actions button:hover,
+.project__card__actions a:hover {
+    background-color: #222;
+    color: #ffbb33;
+}
+
+.project__card__actions svg {
+    margin-right: .5em;
+}
+
+
+

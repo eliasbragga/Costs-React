@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
-import Input from "../form/Input";
-import Select from "../form/Select";
-import SubmitButton from "../form/SubmitButton";
+import Input from "../../form/input/Input";
+import Select from "../../form/select/Select";
+import SubmitButton from "../../form/submitButton/SubmitButton";
 import "./ProjectForm.css";
 
 function ProjectForm({ btnText, handleSubmit, projectData }) {
